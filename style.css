@@ -2,22 +2,30 @@
 *{
     font-size: 30px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 /* External CSS */
 h3 {
     color: white;
     background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Element Selector */
 h4 {
     color: orangered;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:initial;
 }
 
 /* Class Selector */
 .myclass {
-    color: rgb(237, 135, 1);
+    color: rgb(255, 180, 29);
+    font-size: 40px;
+    -webkit-text-stroke: 1.1px;
+    -webkit-text-stroke-color: blue;
 }
 
 /* ID Selector */
@@ -30,4 +38,5 @@ h4 {
 h5, p {
     color:hotpink;
     background-color: black;
+    font-style:italic;
 }
